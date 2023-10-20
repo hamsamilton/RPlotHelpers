@@ -13,7 +13,7 @@
 #   Check Package:             'Cmd + Shift + E'
 #   Test Package:              'Cmd + Shift + T'
 
-hello <- function(name = Joe) {
+hello <- function(name = "Joe") {
   message <- paste("Hello, world! It's", name)
   print(message)
 }
