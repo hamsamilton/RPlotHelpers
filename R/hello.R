@@ -16,3 +16,6 @@
 hello <- function() {
   print("Hello, world!")
 }
+
+
+# Sam Hamilton added this line :)
