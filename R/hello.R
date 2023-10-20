@@ -21,3 +21,7 @@ hello <- function() {
 # Sam Hamilton added this line :)
 
 # Meghan loves R!
+
+hello_FG <- function() {
+  print("Hello, working group! -Maggie")
+}
