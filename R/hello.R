@@ -13,9 +13,12 @@
 #   Check Package:             'Cmd + Shift + E'
 #   Test Package:              'Cmd + Shift + T'
 
-hello <- function() {
-  print("Hello, world!")
+hello <- function(name = Joe) {
+  message <- paste("Hello, world! It's", name)
+  print(message)
 }
+
+hello(name = Jess)
 
 
 # Sam Hamilton added this line :)
